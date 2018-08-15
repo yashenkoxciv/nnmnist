@@ -20,4 +20,4 @@ This step is just the same as vanilla GAN has, but dc learns to distinguish x (d
 Update only c weights by dc loss (like generator weights in GAN)
 
 ## Problems and probable solutions
-*Problem: "code generator" doesn't learn anything, probably because dc learns too fast. Try to reduce dc batch size or make it deeper (synchronize it with c)
+* Problem: "code generator" doesn't learn anything, probably because dc learns too fast. Try to reduce dc batch size or make it deeper (synchronize it with c)
